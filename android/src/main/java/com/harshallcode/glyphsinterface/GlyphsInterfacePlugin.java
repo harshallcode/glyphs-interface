@@ -9,7 +9,7 @@ import com.getcapacitor.annotation.CapacitorPlugin;
 @CapacitorPlugin(name = "GlyphsInterface")
 public class GlyphsInterfacePlugin extends Plugin {
 
-    private GlyphsInterface implementation = new GlyphsInterface();
+    private final GlyphsInterface implementation = new GlyphsInterface();
 
     @PluginMethod
     public void echo(PluginCall call) {
